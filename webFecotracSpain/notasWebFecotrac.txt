@@ -1,0 +1,117 @@
+Web Fecotrac
+buscar referencia: manpower, agnecia prevental
+imagenes
+construccion
+gastronomia
+agricola cosechas
+enfermeria
+
+
+Fecotrac 
+Servicios
+
+
+
+
+Slogan "Tenemos la Solucion a tu busqueda"
+
+/*
+Analisis Man POwer
+pagina principal es como landing y los botones te llevan a la web
+-logo y nombre al margen superior izq
+-foto de fondo con animacion fade out
+//opciones para registrar usuario e iniciar sesion 
+enlace a empresas te lleva a otra pagina 
+de Consultoria de Recursos Humanos//
+
+"Es tu momento de brillar"
+Boton _> Buscar Empleo
+
+
+menu navegacion -servicios y soluciones (donde muestran 
+servicios que brindan)
+                - ofertas de trabajo
+               - investigaciones
+               - acerca de manpower
+              - sustentabilidad
+              - boton de tienda online( te permite contratar servicios, tiene contenedor de dos columnas con imagen y servicio de Personal temporario reclutamiento y administracion + un boton para contratar Personal Temparario Eventual + formulari contacto)
+
+footer Empleos destacados
+en tres columnas
+Atención al Cliente Administrativo Operador de Call Center
+Recepcionista Repositor Operario Promotor/a Representante Comercial de Ventas Técnico Playero/Vendedor Dual
+Mucamo/a
+mas redes sociales 
+mas todos los derechos reservados
+
+*/
+
+
+
+PAgina home
+contenedor con imagen de fondo
+dividido en dos columnas
+a las izquierda tiene titulo  + dscripcion
+
+scroll abajo nusetra historia 
+video de youtube
+
+Liderazco con Cards de Directore, Presidentes 
+y partes del directivos
+
+
+NUestra vision y VAlores
+
+valores
+
+scroll abajo 
+tiene 3 cards con 
+Gente - Conocimiento - Innovacion
+
+
+Reconocimientos Locales
+
+Reconocimientos Globales
+
+Sociaio fundadores "Historia"
+
+
+Footer
+NOmbre Empresa
+nuestras sucursales
+Prensa 
+Etica
+Contactanos
+
+lineas de telofono comercial 0800
+
+lineas de telofono empleados 0800
+
+oportunidades laborales 351 whatsapp
+
+links a redes sociales
+
+colores principales
+amarillo : #fabd00
+rojo : #ad1519
+rojoClaro: #d25552
+verde: #088ee
+amarillo : #fcd801
+amarilloPrincipal: #ffcc00
+
+
+color1: #49c3e3
+color2: #11a3d9
+color3: #02c5f7
+color4: #b1e7f9
+color5: #f9d9d8
+color6: #e66964
+color7: #d22e29
+color8: #b40d0d
+
+tiene un boton de whatassapp al margen infeior derecho
+
+               
+
+
+

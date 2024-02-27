@@ -1,0 +1,56 @@
+:root {
+    --amarillo : #fabd00;
+    --rojo : #ad1519;
+    --rojoClaro: #d25552;
+    --verde: #0088ee;
+    --amarillo : #fcd801;
+    --amarilloPrincipal: #ffcc00;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+.rojo {
+    color: var(--rojo);
+}
+
+.navbar-nav .nav-item  > .nav-link:hover {
+    color: #fff; /* Color blanco */
+    text-shadow: 1px 1px 3px var(--rojo)
+}
+
+.rect {
+    background: var(--rojo);
+    width: 100%;
+    height: auto;
+}
+
+.rect h1 {
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+}
+
+.container-fluid h1 {
+
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+
+}
+
+
+.times {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+svg{
+    z-index: -1;
+}
