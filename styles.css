@@ -26,10 +26,10 @@ body {
 }
 
 .navbar-nav .nav-item  > .nav-link:hover {
-    color: #fff; /* Color blanco */
+    /* color: #fff; Color blanco */
     /* text-shadow: 1px 1px 3px var(--rojo) */
-    border: 1px solid var(--rojo);
-    border-radius: 6px;
+    border-bottom: 1px solid var(--rojo);
+    /* border-radius: 6px; */
 }
 
 
@@ -59,16 +59,16 @@ body {
 }
 
 .titulo h1 {
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 .titulo p {
-    font-size: 1.5rem;
+    font-size: .9rem;
 }
 
 .titulo a {
-    font-size: 1rem;
-    margin-left: .9rem;
+    font-size: .8rem;
+    margin-left: .7rem;
 }
 
 .times {
@@ -91,6 +91,7 @@ svg{
 .encabezado .btn {
     position: absolute;
     left: 20%;
+    padding: .3rem;
 
 }
 
@@ -101,13 +102,64 @@ a.btn.btn-outline-secondary.border.text-white:hover {
     color: #ad1519 !important;
 }
 
-@media screen and (min-width:340px) {
-    
-    .encabezado .btn {
-        left: 20%;
+
+
+/* Estilos para pantallas anchas (escritorio) */
+@media screen and (min-width: 768px) {
+    .valores .imgIzq img {
+        display: block; /* Muestra el elemento */
     }
 }
 
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 767px) {
+    .valores .imgIzq img {
+        display: none; /* Oculta el elemento */
+    }
+    .valores .imgDcha img {
+        display: none;
+    }
+}
+
+
+
+@media screen and (min-width:360px) {
+    
+    .cont_contr .arrow1 {
+        left: 33%;
+        
+    }
+  
+ 
+}
+
+
+
+@media screen and (min-width:340px) {
+    
+    .encabezado .btn {
+        left: 22%;
+    }
+ 
+
+ 
+}
+
+/* Estilos para pantallas anchas (escritorio) */
+@media only screen and (min-width: 768px) {
+    .titulo h1 {
+        font-size: 4rem; /* Tamaño de fuente más grande para pantallas anchas */
+        text-align: center;
+    }
+    .titulo p {
+        font-size: 1.3rem;
+    }
+    .rectBorder {
+        margin: 1rem;
+    }
+
+
+}
 
 .filtroGris img {
     filter: grayscale(70%);
@@ -199,7 +251,7 @@ a.btn.btn-outline-secondary.border.text-white:hover {
    padding: 2rem;
    background: #d9d9d941;
    border-radius: 3px;
-   margin: 1rem;
+   /* margin: 1rem; */
    
     
 }
@@ -209,7 +261,7 @@ a.btn.btn-outline-secondary.border.text-white:hover {
     border-radius: 6px;
     background: var(--rojo);
     position: absolute;
-    right: 14rem;
+    right: 10rem;
     top: 1.5rem;
     transition: width .3s;
 }
@@ -220,10 +272,12 @@ a.btn.btn-outline-secondary.border.text-white:hover {
     border-radius: 6px;
     background: var(--amarillo);
     position: absolute;
-    left: 23rem;
+    left: 10rem;
     top: 1.5rem;
     transition: width 0.3s;
 }
+
+
 
 .contrata:hover .lineaAmarilla {
     width: 7rem;
@@ -239,6 +293,12 @@ a.btn.btn-outline-secondary.border.text-white:hover {
 
 .contrata img {
     border-radius: 50%;
+
+}
+
+.contrata p a:hover {
+    color: #ffffff !important;
+    font-weight: 600;
 }
 
 .circleImg {
@@ -246,13 +306,47 @@ a.btn.btn-outline-secondary.border.text-white:hover {
     height: 300px;
     background: var(--rojoClaro);
     border-radius: 50%;
+    transition: transform 0.5s;
 }
-
 .circleImg2 {
     width: 300px;
     height: 300px;
     background: var(--amarilloPrincipal);
     border-radius: 50%;
+    transition: transform 0.5s;
+
+}
+
+.circleImg img {
+    transition: transform 0.5s;
+    max-width: 100%;
+    filter: grayscale(80%);
+
+}
+.circleImg2 img {
+    transition: transform 0.5s;
+    max-width: 100%;
+    filter: grayscale(80%);
+
+}
+
+.circleImg:hover {
+    transform: scale(1.1);
+}
+
+.circleImg2:hover {
+    transform: scale(1.1);
+}
+
+.circleImg img:hover {
+    transform: scale(1.1);
+    filter: grayscale(10%);
+}
+
+.circleImg2 img:hover {
+    transform: scale(1.1);
+    filter: grayscale(10%);
+
 }
 
 .fondoRojo {
@@ -296,7 +390,21 @@ a.btn.btn-outline-secondary.border.text-white:hover {
     background-image: linear-gradient(to right, #fabd00 , #ffffff);
     width: 100%;
     color: #ffffff;
-    border-radius: 6px;
+    border-radius: 0;
+}
+
+.fondoAmarilloGradient2 {
+
+    background-image: linear-gradient(to right, #ffffff ,  #fabd00);
+    width: 100%;
+    color: #ffffff;
+    border-radius: 0;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.24);
+
+}
+
+.fondoAmarilloGradient img {
+    filter: grayscale(70%);
 }
 
 .porqueElegirnos {
@@ -311,6 +419,53 @@ a.btn.btn-outline-secondary.border.text-white:hover {
     border-radius: 50%;
 }
 
+@media screen and (min-width:340px) {
+    
+   
+    
+
+    .valores .rectBorder {
+        margin-bottom: 1rem;
+    }
+ 
+}
+
+
+.valores{
+    position: relative;
+}
+
+.imgIzq img{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 33%;
+    
+    
+}
+
+.imgDcha img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 33%;
+    
+}
+
+.circulos2 {
+    display: flex;
+    justify-content: end;
+    padding: .2rem;
+    
+}
+.circ2 {
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    margin: .2rem;
+    background: var(--rojoClaro);
+}
+
 
 footer {
     background: var(--rojoClaro);
@@ -321,8 +476,10 @@ footer {
     background-image: url('/webFecotracSpain/img/tramaAbstracta3b.png');
     background-repeat: no-repeat;
     width: 10%;
-    opacity: .5;
+    opacity: 1;
 }
+
+
 
 .trama2 {
    position: fixed;
@@ -339,6 +496,8 @@ footer {
     top: 0;
     right: 0;
     width: 25%;
+    
+    /* visibility: hidden; */
     /* overflow:hidden; */
     /* transform: rotate(180deg); */
 }
@@ -350,6 +509,7 @@ footer {
   
      width: 100%;
      z-index: -1;
+     display: none;
      /* overflow: hidden; */
  }
  
@@ -360,4 +520,59 @@ footer {
      width: 25%;
      /* overflow:hidden; */
      /* transform: rotate(180deg); */
+ }
+
+
+ .cont_contr {
+    position: relative;
+ }
+
+ .cont_contr .arrow1 {
+
+    position: absolute;
+    right: 50%;
+    top: 90%;
+    width: 60%;
+ }
+
+ .cont_agric{
+    position: relative;
+ }
+
+ .cont_agric .arrow2 {
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    width: 60%;
+ }
+
+
+ .cont_gastr {
+    position: relative;
+ }
+
+ .cont_gastr .arrow3 {
+
+    position: absolute;
+    right: 30%;
+    top: 90%;
+    width: 30%;
+
+ }
+
+
+ .circulos {
+    display: flex;
+    justify-content: center;
+    padding: .5rem;
+ }
+
+ .circ {
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    background: #ffffff;
+    margin: .2rem;
+
+    
  }
