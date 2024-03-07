@@ -16,7 +16,7 @@
 }
 
 body {
-    background: beige;
+    background: rgba(0, 0, 0, 0.822) !important; 
 }
 
 
@@ -67,8 +67,9 @@ body {
 }
 
 .titulo a {
-    font-size: .8rem;
+    font-size: 1rem;
     margin-left: .7rem;
+
 }
 
 .times {
@@ -84,14 +85,16 @@ svg{
     width: 100%;
    
     border-radius: 0; /* Bordes irregulares */
-    position: relative;
+    /* position: relative; */
     
 }
 
 .encabezado .btn {
-    position: absolute;
-    left: 20%;
-    padding: .3rem;
+    /* position: absolute; */
+     /* left: 20%; */
+    padding: .5rem; 
+    margin-left: 8rem !important;
+    margin-bottom: 1rem;
 
 }
 
@@ -104,12 +107,7 @@ a.btn.btn-outline-secondary.border.text-white:hover {
 
 
 
-/* Estilos para pantallas anchas (escritorio) */
-@media screen and (min-width: 768px) {
-    .valores .imgIzq img {
-        display: block; /* Muestra el elemento */
-    }
-}
+
 
 /* Estilos para dispositivos móviles */
 @media screen and (max-width: 767px) {
@@ -119,6 +117,27 @@ a.btn.btn-outline-secondary.border.text-white:hover {
     .valores .imgDcha img {
         display: none;
     }
+    .encabezado .filtroGris img {
+        display: none;
+    }
+    .encabezado p {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .encabezado {
+        background: var(--rojo);
+    }
+    .encabezado h1 {
+        text-align: center;
+    }
+     .arrow3 {
+        width: 50% !important;
+        left: 40%;
+        top: 20%;
+        display: none;
+    }
+
+    
 }
 
 
@@ -129,6 +148,7 @@ a.btn.btn-outline-secondary.border.text-white:hover {
         left: 33%;
         
     }
+     
   
  
 }
@@ -145,11 +165,16 @@ a.btn.btn-outline-secondary.border.text-white:hover {
  
 }
 
+
+
+
+
 /* Estilos para pantallas anchas (escritorio) */
 @media only screen and (min-width: 768px) {
     .titulo h1 {
         font-size: 4rem; /* Tamaño de fuente más grande para pantallas anchas */
         text-align: center;
+        
     }
     .titulo p {
         font-size: 1.3rem;
@@ -157,7 +182,41 @@ a.btn.btn-outline-secondary.border.text-white:hover {
     .rectBorder {
         margin: 1rem;
     }
+    .encabezado .btn {
 
+        margin-left: 20rem !important;
+    }
+
+    .cont_contr .arrow1 {
+
+        left: 1%;
+
+    }
+    .img1 .rectImg1 {
+        left: 26%;
+    }
+
+    .img2 .rectImg2 {
+        left: 26%;
+    }
+    .img3 .rectImg3 {
+        left: 26%;
+    }
+ 
+
+    
+
+
+
+
+}
+
+/* Estilos para pantallas anchas (escritorio) */
+@media screen and (min-width: 768px) {
+    .valores .imgIzq img {
+        display: block; /* Muestra el elemento */
+    }
+ 
 
 }
 
@@ -165,15 +224,7 @@ a.btn.btn-outline-secondary.border.text-white:hover {
     filter: grayscale(70%);
 }
 
-.encabezadoPostulacion {
 
-    background-image: linear-gradient(to right, #ffcc00 , #ffffff);
-    width: 100%;
-   
-    border-radius: 0; /* Bordes irregulares */
-    position: relative;
-
-}
 
 .encabezadoContratar {
 
@@ -185,32 +236,91 @@ a.btn.btn-outline-secondary.border.text-white:hover {
     
 }
 
+.encabezadoPostulacion {
+
+    background-image: linear-gradient(to right, #fabd00 , #ffffff);
+    width: 100%;
+   
+    border-radius: 0; /* Bordes irregulares */
+    position: relative;
+    
+}
+
+.img1 {
+    position: relative;
+}
+
+.rectImg1 {
+    width: 300px;
+    height: 300px;
+    border: 3px solid #ad1519 ;
+
+    /* background: var(--rojo); */
+    position: absolute;
+    top: -4%;
+    left: 12%;
+    z-index: -1;
+    
+}
+
 .img1 img {
 
     width: 300px;
     height: auto;
-    border-radius: 10px;
+    border-radius: 1px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.336);
     
     /* border-radius: 50% 50% 50% 53% / 50% 55% 45% 52%; */
 
 }
 
+.img2 {
+    position: relative;
+}
+
+.rectImg2 {
+    width: 300px;
+    height: 300px;
+    border: 3px solid #ffcc00;
+    /* background: var(--amarillo); */
+    position: absolute;
+    top: -4%;
+    left: 12%;
+    z-index: -1;
+}
+
 .img2 img {
     width: 300px;
     height: auto;
-    border-radius: 10px;
+    border-radius: 1px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.336);
     
     /* border-radius: 50% 50% 50% 53% / 50% 55% 45% 52%; */
 
+}
+
+
+.img3 {
+    position: relative;
+}
+
+.rectImg3 {
+    width: 300px;
+    height: 300px;
+    border: 3px solid #ad1519 ;
+    
+    /* background: var(--rojo); */
+    position: absolute;
+    top: -4%;
+    left: 12%;
+    z-index: -1;
 }
 
 .img3 img {
 
     width: 300px;
     height: auto;
-    border-radius: 10px;
+    border-radius: 1px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.336);
 
 }
@@ -247,9 +357,9 @@ a.btn.btn-outline-secondary.border.text-white:hover {
 }
 
 .rectBorder {
-    border: 1px solid var(--rojo);
+    border: 1px solid #ad151a7c;
    padding: 2rem;
-   background: #d9d9d941;
+   background: #d9d9d923;
    border-radius: 3px;
    /* margin: 1rem; */
    
@@ -317,6 +427,15 @@ a.btn.btn-outline-secondary.border.text-white:hover {
 
 }
 
+.circleImg3 {
+    width: 300px;
+    height: 300px;
+    background: var(--amarilloPrincipal);
+    border-radius: 50%;
+    
+
+}
+
 .circleImg img {
     transition: transform 0.5s;
     max-width: 100%;
@@ -373,10 +492,18 @@ a.btn.btn-outline-secondary.border.text-white:hover {
     width: 100%;
 }
 
+.fondoAmarillo p {
+    text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.555);
+}
+
 .fondoNegro {
-    background: var(--negroFondo);
+    background: rgba(0, 0, 0, 0.822);
     color: #ffffff !important;
     width: 100%;
+}
+
+.fondoNegro p {
+    color: #ffffff !important;
 }
 
 .fondoRojoGradient {
@@ -427,6 +554,7 @@ a.btn.btn-outline-secondary.border.text-white:hover {
     .valores .rectBorder {
         margin-bottom: 1rem;
     }
+   
  
 }
 
@@ -527,7 +655,7 @@ footer {
     position: relative;
  }
 
- .cont_contr .arrow1 {
+  .arrow1 {
 
     position: absolute;
     right: 50%;
@@ -541,9 +669,10 @@ footer {
 
  .cont_agric .arrow2 {
     position: absolute;
-    left: 50%;
-    top: 80%;
-    width: 60%;
+    left: 40%;
+    top: 84%;
+    width: 55%;
+    transform: rotate(10deg);
  }
 
 
@@ -555,15 +684,18 @@ footer {
 
     position: absolute;
     right: 30%;
-    top: 90%;
+    top: 80%;
     width: 30%;
 
  }
 
+ .arrow1, .arrow2, .arrow3 {
+    filter: invert(100%);
+ }
 
  .circulos {
     display: flex;
-    justify-content: center;
+    justify-content:end;
     padding: .5rem;
  }
 
