@@ -2,10 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Fecotrac Tenemos la Solucion a tu Busqueda. Empresas que necesitan Personal Eventual. Cooperativa argentina que brinda servicios de construcción, gastronomía y agricultura en España, y ofrece trabajo y formación a postulantes hispanohablantes.">
+    <meta name="keywords" content="Fecotrac, cooperativa, Argentina, construcción, gastronomía, agricultura, España, empleo, formación, hispanohablantes">
+    <meta name="author" content="Fecotrac España">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fecotrac Contratar</title>
     <link rel="shortcut icon" href="/webFecotracSpain/img/logoFecotracEsp01.png" type="image/x-icon">
     <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="contratar.css">
     <link rel="stylesheet" href="/webFecotracSpain/css/bootstrap.min.css">
 </head>
 <body>
@@ -25,7 +29,7 @@
               </li>
           
               <li class="nav-item">
-                <a class="nav-link " href="#">Contratar</a>
+                <a class="nav-link text-danger " href="postulacion.html">Trabaja Con Nosotros</a>
               </li>
            
             </ul>
@@ -62,7 +66,7 @@
       </nav>
 
             <!-- encabezado -->
-            <div class="container-fluid encabezadoContratar">
+            <div class="container-fluid encabezadoContratar2">
 
                 <div class="row">
                   <div class="col-sm-7">
@@ -70,9 +74,11 @@
                     <img src="/webFecotracSpain/img/grupoWorkers.png" class="img-fluid" alt="">
                    
                   </div>
-                  <div class="col-sm-5">
+                  <div class="col-sm-5 cont_contrataConNosotros">
+
+                    <p class="text-white fs-3 mt-5 fw-semibold contrataConNosotros">Contrata Nuestro Servicios</p>
             
-                    <p class="text-center text-secondary">
+                    <p class=" text-white fw-semibold contrataConNos">
                         Ofrecemos una capacitación gratuita a los operarios
             interesados en formar parte de nuestro equipo. Esta
             capacitación es proporcionada por la prestigiosa
@@ -92,6 +98,79 @@
               </div>
 
 
+              <!-- formulario -->
+              <div class="container mb-3">
+               
+                <p class="text-center text-white text-uppercase fs-4 fw-semibold mt-5">¿Buscas Personal Eventual para tu Empresa?</p>
+                <p class="text-center text-white fs-4 fw-semibold">Déjanos tu consulta comercial y nos contactamos ala brevedad.</p>
+              </div>
+
+              <div class="container text-white mt-5 formulario">
+                <form class="row g-3">
+                  <div class="col-md-6">
+                    <label for="inputNombreEmpresa" class="form-label">Nombre Empresa</label>
+                    <input type="text" class="form-control" id="inputNombreEmpresa" placeholder="Empresa">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputTel" class="form-label">Teléfono</label>
+                    <input type="number" class="form-control" id="inputTel" placeholder="número teléfono">
+                  </div>
+                 
+                  <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="email">
+                  </div>
+
+                  <div class="col-md-4">
+                    <label for="inputState" class="form-label">Rubros</label>
+                    <select id="inputState" class="form-select">
+                      <option selected>Construcción</option>
+                      <option>Agricultura</option>
+                      <option>Gastronomía</option>
+                    </select>
+                  </div>
+
+
+                  <div class="col-md-6">
+                    <label for="inputCiudad" class="form-label">Ciudad</label>
+                    <input type="text" class="form-control" id="inputCiudad" placeholder="Ciudad">
+                  </div>
+                  
+                  <div class="col-md-6">
+                    <label for="inputProvincia" class="form-label">Provincia</label>
+                    <input type="text" class="form-control" id="inputProvincia" placeholder="Provincia">
+                  </div>
+
+                  <div class="col-md-12 mb-3">
+                    <label for="formControlTextarea1" class="form-label">Contanos con detalle el perfil que buscas</label>
+                    <textarea class="form-control" id="formControlTextarea1" rows="3" placeholder="Contanos con detalle el perfil que buscas"></textarea>
+                  </div>
+                  
+               
+                
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-warning text-white">Enviar</button>
+                  </div>
+                </form>
+              </div>
+              
+
+              <div class="container mb-3 mt-5">
+
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6 d-block mx-auto">
+                  <p class="text-center text-white fst-italic fs-6 fw-light">Nos enorgullece ser un puente entre el talento argentino y las oportunidades laborales de la Comunidad Europea, contribuyendo así al crecimeinto y el desarrollo profesional de quienes eligen formar parte de nuestro staff
+
+                  </p>
+                </div>
+                <div class="col-sm-3"></div>
+
+               
+           
+              </div>
+              
+
+
 
               <footer class="mt-5">
                 <div class="container p-3">
@@ -101,19 +180,19 @@
                       
                      
                       <ul class="list-unstyled text-center">
-                        <a href="#quienesSomos" class="text-white text-decoration-none">
+                        <a href="index.html" class="text-white text-decoration-none">
                           <li class="text-decoration-underline">
-                            Ofertas Laborales
+                            Inicio
                           </li>
                         </a>
-                        <a href="#mision" class="text-white text-decoration-none">
+                        <a href="contratar.html" class="text-white text-decoration-none">
                           <li>
                             Contratar Servicios
                           </li>
                         </a>
-                        <a href="#beneficios" class="text-white text-decoration-none">
+                        <a href="postulacion.html" class="text-white text-decoration-none">
                           <li>
-                           Postularse a Empleos
+                           Trabaja con Nosotros
                           </li>
                         </a>
                        
@@ -165,7 +244,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle-fill" viewBox="0 0 16 16">
                           <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.146 4.992c.961 0 1.641.633 1.729 1.512h1.295v-.088c-.094-1.518-1.348-2.572-3.03-2.572-2.068 0-3.269 1.377-3.269 3.638v1.073c0 2.267 1.178 3.603 3.27 3.603 1.675 0 2.93-1.02 3.029-2.467v-.093H9.875c-.088.832-.75 1.418-1.729 1.418-1.224 0-1.927-.891-1.927-2.461v-1.06c0-1.583.715-2.503 1.927-2.503"/>
                         </svg>
-                        <small>Fecotrac - Todos los Derechos Reservados 2024</small>
+                        <small>Fecotrac - 2024</small>
                       </span>
                      
               

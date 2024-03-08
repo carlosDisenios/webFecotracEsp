@@ -353,7 +353,7 @@ a.btn.btn-outline-secondary.border.text-white:hover {
 }
 
 .rectRojo2 {
-    background: var(--rojoClaro);
+    background: var(--rojo);
 }
 
 .rectBorder {
@@ -488,12 +488,16 @@ a.btn.btn-outline-secondary.border.text-white:hover {
 }
 
 .fondoAmarillo {
-    background: var(--amarillo1);
+    background: #e4ab01;
+    color: #ffffff;
+    border-radius:0;
+    box-shadow: 1px 5;
+    
     width: 100%;
 }
 
-.fondoAmarillo p {
-    text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.555);
+.fondoAmarillo img {
+    filter: grayscale(90%);
 }
 
 .fondoNegro {

@@ -1,0 +1,95 @@
+:root {
+    --amarillo1 : #fabd00;
+    --rojo : #ad1519;
+    --rojoClaro: #d25552;
+    --verde: #088e3e;
+    --amarillo : #fcd801;
+    --amarilloPrincipal: #ffcc00;
+    --negroFondo: #080001;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.cont_contrataConNosotros{
+    position: relative;
+}
+
+.cont_contrataConNosotros p {
+    color: aliceblue;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+
+.contrataConNosotros {
+
+    position: absolute;
+    top: 40%;
+    right: 20%;
+    width: 100%;
+
+}
+
+
+.contrataConNos {
+
+    position: absolute;
+    top: 60%;
+    right: 20%;
+    width: 100%;
+
+
+}
+
+
+.formulario {
+    border-radius: 6px;
+    padding: 3rem;
+    background: #00000025;
+    border: 1px solid var(--rojo);
+    margin: 1rem;
+}
+
+.encabezadoContratar2 {
+
+    background-image: linear-gradient(#ffffff,  #d25552);
+    width: 100%;
+   
+    border-radius: 0; /* Bordes irregulares */
+    position: relative;
+    box-shadow: 1px 8px 6px #00000044;
+    
+}
+
+input {
+    background: rgb(128, 128, 128) !important;
+    color: #ffffff !important;
+    
+}
+
+textarea {
+    background: rgb(128, 128, 128) !important;
+    color: #ffffff !important;
+}
+
+/* Media query para ocultar el texto en pantallas de móvil */
+@media only screen and (max-width: 767px) {
+    .contrataConNos {
+        display: none;
+    }
+
+    .contrataConNosotros {
+
+        display: none;
+    
+    }
+  }
+
