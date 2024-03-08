@@ -1,0 +1,76 @@
+:root {
+    --amarillo1 : #fabd00;
+    --rojo : #ad1519;
+    --rojoClaro: #d25552;
+    --verde: #088e3e;
+    --amarillo : #fcd801;
+    --amarilloPrincipal: #ffcc00;
+    --negroFondo: #080001;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.cont_trabajaConNosotros {
+    position: relative;
+}
+
+.cont_trabajaConNosotros p {
+    color: aliceblue;
+    text-shadow: 1px 1px 3px #0000008f;
+}
+
+.trabajaConNosotros {
+    position: absolute;
+    top: 40%;
+    right: 30%;
+    width: 100%;
+}
+
+.trabajaConNos {
+    position: absolute;
+    top: 60%;
+    right: 30%;
+    width: 100%;
+}
+
+
+
+.encabezadoPostulacion2 {
+
+    background-image: linear-gradient(#ffffff, #fabd00);
+    width: 100%;
+   
+    border-radius: 0; /* Bordes irregulares */
+    position: relative;
+    box-shadow: 1px 8px 6px #0000002c;
+    
+}
+
+
+.formulario {
+    border-radius: 6px;
+    padding: 3rem;
+    background: #00000025;
+    border: 1px solid var(--rojo);
+    margin: 1rem;
+}
+
+  /* Media query para ocultar el texto en pantallas de móvil */
+  @media only screen and (max-width: 767px) {
+    .trabajaConNos {
+        display: none;
+    }
+
+    .trabajaConNosotros {
+
+        display: none;
+    
+    }
+  }
+
