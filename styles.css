@@ -81,8 +81,12 @@ svg{
 }
 
 .encabezado {
+    /* background-image: url("/webFecotracSpain/img/webFecotracAgri1.jpg") ; */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
     background-image: linear-gradient(to right, #ad1519 , #ffffff);
     width: 100%;
+    /* height: 300px; */
    
     border-radius: 0; /* Bordes irregulares */
     /* position: relative; */
@@ -105,6 +109,46 @@ a.btn.btn-outline-secondary.border.text-white:hover {
     color: #ad1519 !important;
 }
 
+
+.portada {
+    /* background-image: url('/webFecotracSpain/img/webFecotracGastro3.jpg'); */
+    /* background-repeat: no-repeat; */
+    /* background-color: #cccccc; */
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    /* padding-bottom: 40%; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+ }
+
+
+
+.fondo {
+    background: #1e1e2485;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    margin: 0 auto;
+    padding: 1.1rem;
+    border-radius: 10px;
+    text-shadow: 1px 1px  10px rgb(0, 0, 0);
+    display: inline-block;
+    
+    }
+
+
+
+.fondo p {
+    font-size: .8rem;
+    width: 70%;
+}
 
 
 
