@@ -32,7 +32,69 @@ body {
     /* border-radius: 6px; */
 }
 
+.carousel-item {
 
+    position: relative;
+}
+
+
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+
+}
+
+
+.carousel-item img {
+    width: 100%;
+    height: 600px; /* Altura fija para pantallas anchas de escritorio */
+    object-fit: cover; /* Escala la imagen para llenar el contenedor */
+    object-position: center; /* Coloca la imagen en la parte inferior del contenedor */
+}
+
+@media (max-width: 991px) {
+    .carousel-item img {
+        height: auto; /* Altura automática en dispositivos móviles */
+    }
+}
+
+
+
+
+
+.texto-sobre-imagen  {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    color: white;
+    z-index: 2;
+
+}
+
+.texto-sobre-imagen p {
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 1.3rem;
+   }
+
+/* Estilos para pantallas más pequeñas, como dispositivos móviles */
+@media (max-width: 991px) {
+    .texto-sobre-imagen {
+        top: 50%;
+        left: 50%; /* Centra horizontalmente el texto en dispositivos móviles */
+        transform: translate(-50%, -50%);
+        text-align: center; /* Centra el texto horizontalmente en dispositivos móviles */
+        
+    }
+  
+
+}
 
 .post a:hover{
     background: #fabd00;
@@ -53,8 +115,9 @@ body {
 .container-fluid h1 {
 
     color: #ffffff;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 4rem;
+    font-family: "Noto Sans Symbols", sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
 
 }
 
@@ -73,7 +136,8 @@ body {
 }
 
 .times {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Noto Sans Symbols", sans-serif;
+    
 }
 
 svg{
@@ -105,8 +169,10 @@ svg{
 a.btn.btn-outline-secondary.border.text-white:hover {
     /* Estilos para hover */
     /* Por ejemplo: Cambiar color de fondo */
-    background-color: #f0f0f086;
+    /* background-color: #f0f0f086; */
+    background-color: #e4ab01 !important;
     color: #ad1519 !important;
+    font-weight: 600 !important;
 }
 
 
@@ -215,9 +281,9 @@ a.btn.btn-outline-secondary.border.text-white:hover {
 
 /* Estilos para pantallas anchas (escritorio) */
 @media only screen and (min-width: 768px) {
-    .titulo h1 {
+    .container-fluid h1 {
         font-size: 4rem; /* Tamaño de fuente más grande para pantallas anchas */
-        text-align: center;
+        
         
     }
     .titulo p {
@@ -532,7 +598,8 @@ a.btn.btn-outline-secondary.border.text-white:hover {
 }
 
 .fondoAmarillo {
-    background: #e4ab01;
+    /* background: #e4ab01; */
+    background: #d8a200;
     color: #ffffff;
     border-radius:0;
     box-shadow: 1px 5;
@@ -583,10 +650,11 @@ a.btn.btn-outline-secondary.border.text-white:hover {
 }
 
 .porqueElegirnos {
-    background: #e4ab01;
+    background: #d8a200;
     color: #ffffff;
     border-radius: 6px;
     box-shadow: 1px 5px 10px #00000028;
+    margin-top: 10rem !important;
     
 }
 
@@ -756,3 +824,6 @@ footer {
 
     
  }
+
+
+ 
