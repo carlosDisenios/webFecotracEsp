@@ -43,7 +43,7 @@
 
 .encabezadoPostulacion2 {
 
-    background-image: linear-gradient(#ffffff, #fabd00);
+    background-image: linear-gradient(#ffffff, #c79c1a);
     width: 100%;
    
     border-radius: 0; /* Bordes irregulares */
@@ -59,6 +59,11 @@
     background: #00000025;
     border: 1px solid var(--rojo);
     margin: 1rem;
+    display: none;
+}
+
+.mensajeMovil {
+    display: none;
 }
 
   /* Media query para ocultar el texto en pantallas de móvil */
@@ -71,6 +76,9 @@
 
         display: none;
     
+    }
+    .mensajeMovil {
+        display: block;
     }
   }
 
