@@ -22,7 +22,8 @@
 
 .cont_trabajaConNosotros p {
     color: aliceblue;
-    text-shadow: 1px 1px 3px #0000008f;
+    text-shadow: 1px 1px 3px #ffffffce;
+    /* text-shadow: 1px 1px 3px var(--rojo); */
 }
 
 .trabajaConNosotros {
@@ -43,12 +44,13 @@
 
 .encabezadoPostulacion2 {
 
-    background-image: linear-gradient(#ffffff, #c79c1a);
+    background-image: linear-gradient(#ffffff, #d6a512);
     width: 100%;
    
     border-radius: 0; /* Bordes irregulares */
     position: relative;
     box-shadow: 1px 8px 6px #0000002c;
+    /* box-shadow: 1px 8px 6px var(--rojo); */
     
 }
 

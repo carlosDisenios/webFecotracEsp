@@ -77,6 +77,11 @@ body {
 
 }
 
+.texto-sobre-imagen h1 {
+    font-size: 3.3rem;
+}
+
+
 .texto-sobre-imagen p {
     overflow: hidden;
     white-space: nowrap;
@@ -91,6 +96,9 @@ body {
         transform: translate(-50%, -50%);
         text-align: center; /* Centra el texto horizontalmente en dispositivos móviles */
         
+    }
+    .texto-sobre-imagen h1 {
+        font-size: 2rem;
     }
   
 
@@ -361,8 +369,8 @@ a.btn.btn-outline-secondary.border.text-white:hover {
 }
 
 .rectImg1 {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     border: 3px solid #ad1519 ;
 
     /* background: var(--rojo); */
@@ -375,7 +383,7 @@ a.btn.btn-outline-secondary.border.text-white:hover {
 
 .img1 img {
 
-    width: 300px;
+    width: 350px;
     height: auto;
     border-radius: 1px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.336);
@@ -389,8 +397,8 @@ a.btn.btn-outline-secondary.border.text-white:hover {
 }
 
 .rectImg2 {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     border: 3px solid #ffcc00;
     /* background: var(--amarillo); */
     position: absolute;
@@ -400,7 +408,7 @@ a.btn.btn-outline-secondary.border.text-white:hover {
 }
 
 .img2 img {
-    width: 300px;
+    width: 350px;
     height: auto;
     border-radius: 1px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.336);
@@ -415,8 +423,8 @@ a.btn.btn-outline-secondary.border.text-white:hover {
 }
 
 .rectImg3 {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     border: 3px solid #ad1519 ;
     
     /* background: var(--rojo); */
@@ -428,7 +436,7 @@ a.btn.btn-outline-secondary.border.text-white:hover {
 
 .img3 img {
 
-    width: 300px;
+    width: 350px;
     height: auto;
     border-radius: 1px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.336);
@@ -650,7 +658,7 @@ a.btn.btn-outline-secondary.border.text-white:hover {
 }
 
 .porqueElegirnos {
-    background: #d8a200;
+    background: #cca819;
     color: #ffffff;
     border-radius: 6px;
     box-shadow: 1px 5px 10px #00000028;
@@ -826,4 +834,11 @@ footer {
  }
 
 
- 
+ .bordes {
+    border: 1px solid white;
+    display: inline-block;
+    padding: .5rem;
+    text-align: center;
+   
+
+ }
