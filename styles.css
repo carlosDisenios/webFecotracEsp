@@ -50,6 +50,61 @@ body {
 
 }
 
+.etapas .image-container {
+    position:relative;
+}
+
+.etapas .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.5);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.etapas .overlay p {
+    margin: 0;
+    padding: 1rem;
+    overflow: hidden;
+    /* text-overflow: ellipsis; */
+    white-space: wrap;
+    
+}
+
+.etapas img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* .etapas::before {
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+    
+} */
+
+.etapas img {
+    width: 100%;
+    /* height: 100px; */
+    object-fit: cover;
+    /* margin-bottom: 1.5rem; */
+}
+
+.contenedorEtapas {
+    background: #ad151a00;
+    padding-bottom: 3rem;
+}
 
 .carousel-item img {
     width: 100%;
@@ -225,7 +280,9 @@ a.btn.btn-outline-secondary.border.text-white:hover {
 }
 
 
-
+.fecotrac {
+    color: #ad1519;
+}
 
 /* Estilos para dispositivos móviles */
 @media screen and (max-width: 767px) {
@@ -376,7 +433,7 @@ a.btn.btn-outline-secondary.border.text-white:hover {
     /* background: var(--rojo); */
     position: absolute;
     top: -4%;
-    left: 12%;
+    left: 12% !important;
     z-index: -1;
     
 }
@@ -403,7 +460,7 @@ a.btn.btn-outline-secondary.border.text-white:hover {
     /* background: var(--amarillo); */
     position: absolute;
     top: -4%;
-    left: 12%;
+    left: 12% !important;
     z-index: -1;
 }
 
@@ -430,7 +487,7 @@ a.btn.btn-outline-secondary.border.text-white:hover {
     /* background: var(--rojo); */
     position: absolute;
     top: -4%;
-    left: 12%;
+    left: 12% !important;
     z-index: -1;
 }
 
@@ -472,7 +529,12 @@ a.btn.btn-outline-secondary.border.text-white:hover {
 
 .rectRojo2 {
     background: var(--rojo);
+   
 }
+
+
+
+
 
 .rectBorder {
     border: 1px solid #ad151a7c;
@@ -607,7 +669,7 @@ a.btn.btn-outline-secondary.border.text-white:hover {
 
 .fondoAmarillo {
     /* background: #e4ab01; */
-    background: #d8a200;
+    background: #d93351;
     color: #ffffff;
     border-radius:0;
     box-shadow: 1px 5;
@@ -658,7 +720,9 @@ a.btn.btn-outline-secondary.border.text-white:hover {
 }
 
 .porqueElegirnos {
-    background: #dab00c;
+    /* background: #dab00c; */
+    /* background: #8f161a; */
+    background: #632a4d;
     color: #ffffff;
     border-radius: 6px;
     box-shadow: 1px 5px 10px #00000028;
@@ -720,16 +784,18 @@ a.btn.btn-outline-secondary.border.text-white:hover {
 
 
 footer {
-    background: var(--rojoClaro);
+    /* background: var(--rojoClaro); */
+    background: #d93351;
     color: #ffffff;
 }
 
 .trama1 {
-    background-image: url('/webFecotracSpain/img/tramaAbstracta3b.png');
+    /* background-image: url('/webFecotracSpain/img/tramaAbstracta3b.png'); */
     background-repeat: no-repeat;
     width: 10%;
     opacity: 1;
 }
+
 
 
 
@@ -842,3 +908,5 @@ footer {
    
 
  }
+
+
